@@ -1,0 +1,51 @@
+/* Font color and family styles */
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+  }
+  
+  /* Style definitions */
+  .container {
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+  .box {
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-bottom: 20px;
+    text-align: center; /* Center the text */
+  }
+  
+  .box h2 {
+    color: #666;
+  }
+  
+  /* Positioned and styled divs */
+  #div1 {
+    width: 300px;
+    height: 200px;
+    background-color: #e6f7ff;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+  }
+  
+  #div2 {
+    width: 200px;
+    height: 150px;
+    background-color: #ccffcc;
+    position: relative;
+    top: 100px;
+    left: 100px;
+  }
+  
+  #div3 {
+    width: 250px;
+    height: 250px;
+    background-color: #ffe6cc;
+    position: fixed;
+    top: 100px;
+    right: 50px;
+  }
